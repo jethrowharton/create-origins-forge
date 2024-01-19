@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.xlr08.createoriginsforge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DivingHelmetItemMixin"
+  ],
+  "client": [
+    "RemainingAirOverlayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
